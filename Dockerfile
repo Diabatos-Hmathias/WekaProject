@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir Flask
 
 # Expose the port on which your Flask app runs
-EXPOSE 8080
+EXPOSE 5000
 
 # Define the command to run your Flask app when the container starts
 CMD ["python", "weka.py"]
