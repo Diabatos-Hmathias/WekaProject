@@ -10,9 +10,6 @@ COPY . /app
 # Install Flask and other dependencies
 RUN pip install --no-cache-dir Flask
 
-# Install additional dependencies, including os module
-RUN pip install --no-cache-dir os
-
 # Expose the port on which your Flask app runs
 EXPOSE 5000
 
